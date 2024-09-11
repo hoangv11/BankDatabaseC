@@ -1,0 +1,152 @@
+Script started on Sat 28 Oct 2023 02:43:18 PM HST
+]0;hoangv@uhx02:~/Project1[?1034huhx02:/home/h/hoangv/Project1% ./project
+
+Welcome to the Bank
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+ad
+Enter your account number: 123
+Enter your name: Victor H
+Enter your address: 123 Apple Dr
+Honolulu HI
+
+Your record has been succesfully added.
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+a
+Enter your account number: 1234
+Enter your name: Jimmy
+Enter your address: 1234 Banana Dr
+HI
+
+Your record has been successfully added
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+print
+
+Account Number: 123
+Name: Victor H
+Address: 123 Apple Dr
+Honolulu HI
+
+
+
+Account Number: 1234
+Name: Jimmy
+Address: 1234 Banana Dr
+HI
+
+
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+find
+Enter account number you would like to find: 1234
+
+Account Number: 1234
+Name: Jimmy
+Address: 1234 Banana Dr
+HI
+
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+delete
+Enter the account number you would like to delete: 1234
+Record not found
+Record has been succesfully deleted
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+pr
+
+Account Number: 123
+Name: Victor H
+Address: 123 Apple Dr
+Honolulu HI
+
+
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+q
+]0;hoangv@uhx02:~/Project1uhx02:/home/h/hoangv/Project1% ./project debug
+DEBUG: retrieves records from saved file
+
+Welcome to the Bank
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+add
+Enter your account number: 123
+Enter your name: Vic
+Enter your address: 321 Orange St
+
+A record with that account number already exists
+
+Select an option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+q
+DEBUG: saves all current records into a file on quit
+DEBUG: All records are deallocated.
+]0;hoangv@uhx02:~/Project1uhx02:/home/h/hoangv/Project1% exit
+exit
+
+Script done on Sat 28 Oct 2023 02:45:33 PM HST

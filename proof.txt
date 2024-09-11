@@ -1,0 +1,14 @@
+Script started on Sat 28 Oct 2023 02:41:50 PM HST
+]0;hoangv@uhx02:~/Project1[?1034huhx02:/home/h/hoangv/Project1% make
+make: `project' is up to date.
+]0;hoangv@uhx02:~/Project1uhx02:/home/h/hoangv/Project1% touch *.c
+]0;hoangv@uhx02:~/Project1uhx02:/home/h/hoangv/Project1% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project user_interface.o database.o
+]0;hoangv@uhx02:~/Project1uhx02:/home/h/hoangv/Project1% make
+make: `project' is up to date.
+]0;hoangv@uhx02:~/Project1uhx02:/home/h/hoangv/Project1% exit
+exit
+
+Script done on Sat 28 Oct 2023 02:42:43 PM HST
